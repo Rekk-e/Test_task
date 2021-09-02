@@ -1,0 +1,201 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background:#666;
+  color:#fff;
+}
+h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+ul{
+  overflow:hidden;
+  padding:3em;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:30em;
+  width:30em;
+  padding:1em;
+}
+ul li{
+  margin:1em;
+  float:left;
+}
+
+ul li h2{
+  font-size:110%;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+
+ul li p{
+  font-family:"Neucha",serif;
+  font-size:110%;
+  word-break: break-all;
+}
+
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:30em;
+  width:30em;
+  padding:1em;
+  /* Firefox */
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  /* Safari+Chrome */
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  /* Opera */
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:30em;
+  width:30em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+
+ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+
+}
+
+a.button7 {
+  position: absolute;
+  left:150px;
+  bottom: 120px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+a.button6 {
+  position: absolute;
+  left:280px;
+  bottom: 120px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(240, 22, 22);
+  box-shadow: 0 -3px rgb(168, 19, 19) inset;
+  transition: 0.2s;
+} 
+a.button6:hover { background: rgb(168, 19, 19); }
+a.button6:active {
+  background: rgb(133, 19, 19);
+  box-shadow: 0 3px rgb(133, 19, 19) inset;
+
+
+}
+
+a.button5 {
+  position: absolute;
+  left:395px;
+  bottom: 120px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(255, 140, 0);
+  box-shadow: 0 -3px rgb(255, 69, 0) inset;
+  transition: 0.2s;
+} 
+a.button5:hover { background: rgb(255, 99, 71); }
+a.button5:active {
+  background: rgb(255, 140, 0);
+  box-shadow: 0 3px rgb(255, 140, 0) inset;
+}
+
+textarea.inp1 {
+  padding: 10px;
+  font-size: 12px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  color: #333;
+  width: 27.5%;
+  height: 15%;
+  position: absolute;
+  left: 150px;
+  bottom: 190px;
+}
+
+input.inp2 {
+  padding: 10px;
+  font-size: 12px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  color: #333;
+  width: 16%;
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+

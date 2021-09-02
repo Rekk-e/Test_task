@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+body {background: #F5E9D9;}
+.postcard {
+  max-width: 350px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background: #fffdee;
+  border: 10px solid transparent;
+  border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px,transparent 30px, transparent 40px);
+  font-family: 'Playfair Display';
+  color: #605756;
+}
+.form-row {margin-bottom: 15px;}
+.form-row input[type="text"], 
+.form-row input[type="email"], 
+.form-row textarea {
+  width: 100%;
+  padding: 0 10px;
+  line-height: 35px;
+  border-width: 0;
+  outline: none;
+  background: transparent url(https://html5book.ru/wp-content/uploads/2016/12/bg-form.png) bottom left repeat-x;
+  background-size: 8px 35px;
+  font-family: 'Playfair Display';
+}
+.form-row textarea {
+  background-attachment: local;
+  background-repeat: repeat;
+  resize: none;
+}
+.form-row input[type="submit"] {
+  padding: 10px 20px;
+  background: #F67CA5;
+  border-width: 0;
+  margin-left: 55px;
+  cursor: pointer; 
+  outline: none;
+  font-family: 'Playfair Display';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #fffdee;
+  text-transform: uppercase;
+  transition: 1s cubic-bezier(.165, .84, .44, 1);
+}
+.form-row input[type=submit]:hover {background: #C42061;}
+a.green{
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+color: #fff;
+display:block;
+width:200px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 8px 16px;
+margin: 30px auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+a.green {
+background-color: rgb( 43, 153, 91 );
+border: 1px solid rgb( 33, 126, 74 );
+margin: 15px auto;
+}
+        
+a.green:hover {
+background-color: rgb( 75, 183, 141 );
+}
